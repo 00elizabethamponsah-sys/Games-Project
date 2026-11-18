@@ -1,0 +1,231 @@
+body {
+  background-color: #101827;
+  font-family: 'VT323', Monospace;
+}
+
+header{
+ border-bottom: 5px solid springgreen;
+ background-color: #101827;
+ text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  color: #A78BFA;
+}
+
+nav {
+ padding: 20px;
+ background-color: #101827;
+ text-align: center;
+ height: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#signin {
+ background-color: #7C3AED;
+ border-radius: 8px;
+ padding: 12px 20px;
+ cursor: pointer;
+ font-size: 25px;
+}
+
+#signin:hover{
+   background-color: #6D28D9;
+}
+
+#login {
+ background-color: #7C3AED;
+ border-radius: 8px;
+ padding: 12px 20px;
+ cursor: pointer;
+ font-size: 25px;
+}
+
+#login:hover {
+ background-color: #6D28D9;
+}
+
+main {
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  color: #A78BFA;
+}
+
+.footer{
+  color: springgreen;
+}
+
+section {
+  padding: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  color: #A78BFA;
+}
+
+#tictactoe {
+ border-radius: 8px;
+ padding: 12px 20px;
+ font-size: 30px;
+ color: #FFFFFF;
+ background-color: #7C3AED;
+} 
+
+#tictactoe:hover {
+ background-color: #6D28D9;
+}
+
+#snake {
+ border-radius: 8px;
+ padding: 12px 20px; 
+ font-size: 30px;
+ background-color: springgreen;
+ color: #FFFFFF;
+} 
+
+#snake:hover {
+ background-color: #00843D;
+}
+
+.game-controls{
+  padding: 11px 20px;
+  color: #FFFFFF;
+  display: flex;
+  margin: 
+  gap 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+/*TICTACTOE*/
+#tbody {
+ text-align: center;
+ background-color: #121827;
+} 
+
+#theader{
+ text-align: center;
+ padding: 10px;
+ margin: 0;
+ font-family: 'VT323', Monospace;
+ font-size: 80px;
+ border-bottom: 5px solid black;
+ width: auto;
+ height: auto;
+}
+
+#thome {
+ background-color: springgreen;
+ border-radius: 8px;
+ padding: 12px 20px;
+ cursor: pointer;
+ color: #A78BFA;
+}
+
+table {
+ border: 3px solid black;
+ text-align: center;
+}
+
+#ttttable {
+ border-collapse: collapse;
+ border-style: hidden;
+ text-align: justify;
+}
+
+.tdiv{
+  float: center;
+}
+
+th {
+  padding: 5px;
+}
+
+.game-controls:hover{
+  background-color: orange;
+}
+
+.gameBoard {
+ display: grid;
+ grid-template: repeat(3, 100px) / repeat(3, 100px);
+ gap: 10px;
+ justify-content: center;
+ margin: 30px auto;
+}
+
+.cell {
+  background-color: #28344C;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+  font-family: Monospace;
+  cursor: pointer;
+  color: #C4B5FD;
+}
+
+/*SNAKE*/
+#sbody {
+ text-align: center;
+ display: block;
+}
+
+.sgameBoard {
+ display: grid;
+ grid-template: repeat(10, 35px) / repeat(10, 35px);
+ gap: 1px;
+ justify-content: center;
+ margin: 30px auto;
+}
+
+.scell {
+  background-color: #28344C;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+  font-family: Monospace;
+  cursor: pointer;
+  color: #C4B5FD;
+}
+
+.Snake {
+  font-size: 90px;
+  text-decoration: underline;
+  flex-shrink: 1;
+}
+
+#stable {
+ border-collapse: collapse;
+ border-style: hidden;
+  margin-left: 20px;
+ text-align: justify;
+}
+
+th {
+ border: 1px solid black;
+ font-size: 30px; 
+ color: #A78BFA;
+}
+
+td {
+  border: 1px solid black;
+  font-size: 30px; 
+  color: #A78BFA;
+}
+
+
+
